@@ -22,7 +22,6 @@ limitations under the License.
 // Version          £º  v-1.0
 // Date				:   2019-1-25
 // Email            :   xcrypt@126.com
-// copyright        £º  XCrypt Studio
 // ------------------------------------------------------------------------------
 
 module des_core(
