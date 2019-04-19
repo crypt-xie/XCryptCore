@@ -19,8 +19,8 @@ limitations under the License.
 // Function         :   SM3 Hash Algorithm Simulate File 
 // ------------------------------------------------------------------------------
 // Author           :   Xie
-// Version          ：  v-1.0
-// Date				:   2019-1-22
+// Version          ：  v-1.1
+// Date				:   2019-4-19
 // Email            :   xcrypt@126.com
 // ------------------------------------------------------------------------------
 
@@ -103,7 +103,7 @@ module tb_sm3_core();
 						r_start <= #DLY 1'b1;
 						r_vin <= #DLY s_vout;
 						r_data <= #DLY DAT2_2;  //test dat2-2
-						r_state <= #DLY 2'd2;
+						r_state <= #DLY 2'd3;
 					end
 				end
 				2'd3: begin
@@ -128,6 +128,7 @@ module tb_sm3_core();
 		repeat(10) @(negedge r_clk);
 		r_test = 1'b1;
 		repeat(5000) @(negedge r_clk);
+		$stop;
 	end	
 	
 /*     initial begin
