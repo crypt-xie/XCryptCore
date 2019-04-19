@@ -22,7 +22,6 @@ limitations under the License.
 // Version          :   v-1.0
 // Date				:   2019-1-24
 // Email            :   xcrypt@126.com
-// copyright        :   XCrypt Studio
 // ------------------------------------------------------------------------------
 
 `timescale 1ns / 1ps

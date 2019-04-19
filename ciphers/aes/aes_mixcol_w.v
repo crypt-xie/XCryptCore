@@ -22,7 +22,6 @@ limitations under the License.
 // Version          ：  v-1.0
 // Date				:   2019-2-1
 // Email            :   xcrypt@126.com
-// copyright        ：  XCrypt Studio
 // -------------------------------------------------------------------------------------------------
 module aes_mixcol_w(
 	input	[31:0]	i_din,
