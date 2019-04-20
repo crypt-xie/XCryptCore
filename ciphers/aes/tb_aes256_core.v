@@ -19,8 +19,8 @@ limitations under the License.
 // Function         :   AES-256 Cryptographic Algorithm Core Simulate File 
 // ------------------------------------------------------------------------------
 // Author           :   Xie
-// Version          :   v-1.0
-// Date				:   2019-4-20
+// Version			:   v-1.0
+// Date             ：  2019-4-20
 // Email            :   xcrypt@126.com
 // ------------------------------------------------------------------------------
 
